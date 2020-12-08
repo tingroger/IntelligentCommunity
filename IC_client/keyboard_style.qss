@@ -1,0 +1,10 @@
+﻿QToolButton
+{
+        background-color:rgba(0,0,0,0);
+}
+
+QToolButton:pressed
+{
+        border-radius: 10px;
+        background-color:rgba(32,255,84,100);
+}

@@ -1,0 +1,12 @@
+debug/editable_table.o
+debug/main.o
+debug/intelligentmanagement.o
+debug/sqldatabase.o
+debug/user.o
+debug/user_tcp_server.o
+debug/win_admin.o
+debug/win_admin_tcp.o
+debug/win_admin_user.o
+debug/qrc_rec.o
+debug/moc_intelligentmanagement.o
+debug/moc_win_admin.o

@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Keyboard</class>
+ <widget class="QWidget" name="Keyboard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>255</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>255</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/kb_letter.jpg);</string>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="q">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>7</y>
+     <width>61</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="w">
+   <property name="geometry">
+    <rect>
+     <x>76</x>
+     <y>7</y>
+     <width>61</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="e">
+   <property name="geometry">
+    <rect>
+     <x>145</x>
+     <y>7</y>
+     <width>62</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="r">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>7</y>
+     <width>62</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="t">
+   <property name="geometry">
+    <rect>
+     <x>283</x>
+     <y>7</y>
+     <width>62</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="y">
+   <property name="geometry">
+    <rect>
+     <x>352</x>
+     <y>7</y>
+     <width>62</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="u">
+   <property name="geometry">
+    <rect>
+     <x>421</x>
+     <y>7</y>
+     <width>62</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="i">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>7</y>
+     <width>62</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="o">
+   <property name="geometry">
+    <rect>
+     <x>559</x>
+     <y>7</y>
+     <width>62</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="p">
+   <property name="geometry">
+    <rect>
+     <x>628</x>
+     <y>7</y>
+     <width>62</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="btn_backspace">
+   <property name="geometry">
+    <rect>
+     <x>697</x>
+     <y>7</y>
+     <width>62</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="a">
+   <property name="geometry">
+    <rect>
+     <x>33</x>
+     <y>70</y>
+     <width>61</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="s">
+   <property name="geometry">
+    <rect>
+     <x>102</x>
+     <y>70</y>
+     <width>61</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="d">
+   <property name="geometry">
+    <rect>
+     <x>171</x>
+     <y>70</y>
+     <width>61</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="f">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>70</y>
+     <width>61</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="g">
+   <property name="geometry">
+    <rect>
+     <x>309</x>
+     <y>70</y>
+     <width>62</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="h">
+   <property name="geometry">
+    <rect>
+     <x>378</x>
+     <y>70</y>
+     <width>62</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="j">
+   <property name="geometry">
+    <rect>
+     <x>447</x>
+     <y>70</y>
+     <width>62</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="k">
+   <property name="geometry">
+    <rect>
+     <x>516</x>
+     <y>70</y>
+     <width>62</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="l">
+   <property name="geometry">
+    <rect>
+     <x>585</x>
+     <y>70</y>
+     <width>62</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="btn_enter">
+   <property name="geometry">
+    <rect>
+     <x>654</x>
+     <y>70</y>
+     <width>105</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="btn_case">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>131</y>
+     <width>61</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="z">
+   <property name="geometry">
+    <rect>
+     <x>76</x>
+     <y>131</y>
+     <width>62</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="x">
+   <property name="geometry">
+    <rect>
+     <x>145</x>
+     <y>131</y>
+     <width>62</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="c">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>131</y>
+     <width>62</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="v">
+   <property name="geometry">
+    <rect>
+     <x>283</x>
+     <y>131</y>
+     <width>62</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="b">
+   <property name="geometry">
+    <rect>
+     <x>352</x>
+     <y>131</y>
+     <width>62</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="n">
+   <property name="geometry">
+    <rect>
+     <x>421</x>
+     <y>131</y>
+     <width>62</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="m">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>131</y>
+     <width>62</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="btn_comma">
+   <property name="geometry">
+    <rect>
+     <x>559</x>
+     <y>131</y>
+     <width>62</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="btn_period">
+   <property name="geometry">
+    <rect>
+     <x>628</x>
+     <y>131</y>
+     <width>62</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="btn_question">
+   <property name="geometry">
+    <rect>
+     <x>697</x>
+     <y>131</y>
+     <width>62</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="btn_switch">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>193</y>
+     <width>96</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="btn_pinyin">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>193</y>
+     <width>96</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="btn_space">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>193</y>
+     <width>442</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="btn_num">
+   <property name="geometry">
+    <rect>
+     <x>663</x>
+     <y>193</y>
+     <width>96</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="SoftKey" name="btn_quit">
+   <property name="geometry">
+    <rect>
+     <x>768</x>
+     <y>7</y>
+     <width>25</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SoftKey</class>
+   <extends>QToolButton</extends>
+   <header>Keyboard.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,10 @@
+release/keyboard.o
+release/main.o
+release/intelligentcommunity.o
+release/win_register.o
+release/win_user.o
+release/qrc_pic.o
+release/moc_intelligentcommunity.o
+release/moc_keyboard.o
+release/moc_win_register.o
+release/moc_win_user.o

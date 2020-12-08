@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>kb_letter.jpg</file>
+        <file>keyboard_style.qss</file>
+    </qresource>
+</RCC>

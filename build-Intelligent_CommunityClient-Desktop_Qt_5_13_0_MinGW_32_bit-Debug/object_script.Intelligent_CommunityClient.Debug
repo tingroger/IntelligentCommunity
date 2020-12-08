@@ -1,0 +1,10 @@
+debug/keyboard.o
+debug/main.o
+debug/intelligentcommunity.o
+debug/win_register.o
+debug/win_user.o
+debug/qrc_pic.o
+debug/moc_intelligentcommunity.o
+debug/moc_keyboard.o
+debug/moc_win_register.o
+debug/moc_win_user.o

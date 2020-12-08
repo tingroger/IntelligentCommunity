@@ -1,0 +1,12 @@
+release/editable_table.o
+release/main.o
+release/intelligentmanagement.o
+release/sqldatabase.o
+release/user.o
+release/user_tcp_server.o
+release/win_admin.o
+release/win_admin_tcp.o
+release/win_admin_user.o
+release/qrc_rec.o
+release/moc_intelligentmanagement.o
+release/moc_win_admin.o
